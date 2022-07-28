@@ -19,7 +19,6 @@
 
   Where to start. This was a great way to really hone my skills on routing and database storage. Sequalize  makes SQL so much easier to use.  It also really helped me with the relationship of different files. I.e. how you can separate files and blocks of code to make it more scalable..
   
-  ![Emp-Track 1](https://user-images.githubusercontent.com/97492542/181431070-7fa35093-15b7-42bf-97d5-ef8d86bb7c8b.png)
 ![Emp-Track 2](https://user-images.githubusercontent.com/97492542/181431072-d224616b-1048-4085-a1f1-4c74a97fb75f.png)
 ![Emp-Track 3](https://user-images.githubusercontent.com/97492542/181431074-afbeb326-eba8-4e07-8b7e-5ed514ac53f8.png)
 ![Emp-Track 4](https://user-images.githubusercontent.com/97492542/181431076-2a2b8d4b-6d61-49b4-a61d-aedfe7ce4ddd.png)

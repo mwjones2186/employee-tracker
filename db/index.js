@@ -20,20 +20,15 @@ class Data {
     findEmployees(){
         // THEN I am presented with a formatted table showing employee data, including employee ids, first names, last names, job titles, departments, salaries, and managers that the employees report to
         return this.connection.promise().query('SELECT employee.first_name, employee.last_name, employee.role_id, role.salary FROM employee LEFT JOIN role ON employee.role_id = role.id LEFT JOIN department on role.department_id = department.id LEFT JOIN employee AS manager ON manager.id = employee.manager_id;')
+        
     }
     
-    createDepartment(){
+    createDepartment(name){
+        
         // WHEN I choose to add a department
         // THEN I am prompted to enter the name of the department and that department is added to the database
-        inquirer.prompt({
-            type: 'list',
-            name: 'departmentChoice',
-            message: 'What department would you like to add?',
-            choices: ['IT', 'HR', 'Admin']
-        }).then(async function({name}){
-            await prompt();
-            return this.connection.promise().query(`INSERT INTO department VALUES ('deparmentChoice') `)
-        });
+        return this.connection.promise().query(`INSERT INTO department VALUES (${name})`)
+      
     }
     
     createRole(){

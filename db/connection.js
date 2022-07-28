@@ -1,10 +1,13 @@
+
 const mysql = require('mysql2');
+
 
 const connection = mysql.createConnection(
     {
       host: 'localhost',      
       user: 'root',
-      password: 'ArthrexRep2011*',
+      //please enter your password below
+      password: 'ENTER YOUR PASSWORD',
       database: 'employees'
     },
   );

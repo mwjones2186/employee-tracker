@@ -32,6 +32,9 @@
   ## Usage
 
   I see the ideal person being an HR representitive or high level director that needs access to this information. More importantly, being able to move, add or change employee roles and information. Depending on the size of an organization, there could be multiple employees monthly that are getting raises, moving to new roles or potentially entirely new departments being created. What a simple way to handle all of this information.
+  
+  **PLEASE NOTE**
+  When adding an engineer, when you are prompted to add your gitlab address, you simply need to add your gitlab page. You do not need to add the "gitlab.com/". For example, when prompted, I would type 'mwjones2186' and the application will add the http://github.com/mwjones2186.
 
   ## Contribution
 

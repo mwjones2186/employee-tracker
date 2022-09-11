@@ -26,6 +26,9 @@
 ![Emp-Track 6](https://user-images.githubusercontent.com/97492542/181431079-ed8a12b8-260f-426f-b824-6b68a5e72b58.png)
 ![Emp-Track 7](https://user-images.githubusercontent.com/97492542/181431080-5c266eb5-4875-4d59-874d-6a147b1de16c.png)
 
+VIDEO WALKTHROUGH
+https://drive.google.com/file/d/1JOlXbZXnU6qKNZ0ItAjRtBmtXqwOszVP/view
+
   ## Installation
   First, you will clone the repository. Once that is complete, open your terminal and type 'npm init -y' followed by 'npm i' to install all necessary packages. NEXT, you will open the conncetion.js file under the db folder and enter your own MYSQL password. NEXT, you will open mysql in the terminal running the command [mysql -u root -p], enter YOUR password. Once mysql is open, run the following 3 codes. [source db/db.sql] [source db/schema.sql] [source db/seeds.sql] followed by 'quit'. Then all there is left to do is in your integrated terminal, 'node start'. You have successfuly installed and ready to start using employee-tracker. .
 
